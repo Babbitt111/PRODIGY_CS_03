@@ -27,3 +27,32 @@ This Python tool evaluates the strength of a password based on key security crit
 
 ```bash
 python password_checker.py
+
+- Enter a password when prompted. The tool will:
+- Check for length, uppercase, lowercase, numbers, and special characters
+- Display which criteria are missing
+- Classify the password as ❌ Weak, ⚠️ Moderate, or 💪 Strong
+
+```markdown
+---
+
+## 🧪 Sample Output
+
+Enter your password:
+Ahmed123
+
+❌ Missing special character ⚠️ Password Strength: Moderate
+
+Enter your password:
+Ahmed@123
+
+✅ All criteria met! 💪 Password Strength: Strong
+
+---
+
+## 🧠 What I Learned
+
+- How to validate password strength using Python  
+- How to use regular expressions for pattern matching  
+- How to give user-friendly feedback in CLI tools  
+- The importance of strong passwords in cybersecurity
